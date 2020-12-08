@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@700&display=swap');
+h1,h2{
+	font-family: 'Trispace', sans-serif;
+}
+h2{
+	color: black;
+	background-color: yellow;
+}
+/* Navigation Bar */
+nav ul{
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active {
+	color: blue;
+}
+footer a:link{
+	color: white;
+}
+footer a:visited {
+	color: purple;
+}
+footer a:hover{
+	color: purple;
+}
+footer a:active {
+	color: blue;
+}
+footer{
+	text-align: center;
+}
+h1{
+	font-size: 3em;
+}
+i.fa{
+	font-size: 5em; 
+	color: pink;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+header img{
+	margin: 0 auto;
+	display: block;
+}
+nav ul{
+	margin: 0 auto;
+}
+nav li{
+	display: inline-block;
+	background-color: pink;
+	padding: 8px 10px;
+	border-radius: 50px;
+}
+nav li:hover{
+	background-color: purple;
+}
+nav{
+	background-color: #dddddd;
+	border-top: 8px solid purple;
+	border-bottom: 8px solid purple;
+}
+nav ul{
+	text-align: left;
+	padding: 8px;
+}
+body{
+	margin: 10px 0;
+}
+
+.icons{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px;
+}
+footer{
+	background-color: #6c757d;
+}
+.large{
+	font-size: 24px;
+}
+h3{
+	border: 3px purple dotted;
+	border-radius: 50px;
+	background-color: pink;
+	text-align: left;
+	padding: 2px 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	max-width: 300px;
+}
+h3{
+	border: 3px purple dotted;
+	border-radius: 50px;
+	background-color: pink;
+	text-align: left;
+	padding: 2px 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	max-width: 300px;
+}
+h1{
+	border: 3px purple dotted;
+	border-radius: 50px;
+	background-color: pink;
+	text-align: left;
+	display:inline;
+	padding: 2px 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+p{
+	margin: auto;
+}
+.headline{
+	border: 3px purple dotted;
+	border-radius: 50px;
+	background-color: pink;
+	text-align: left;
+	padding: 2px 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	max-width: 300px;
+}
+/*  CSS for Tablets  */
+@media only screen and (max-width: 1024px){
+	h1{
+	font-size: 2em;
+	}
+}
+
+
+/*  CSS for Smartphones  */
+@media only screen and (max-width: 768px;){
+	h1{
+	font-size: 1.5em;
+	}	
+}
